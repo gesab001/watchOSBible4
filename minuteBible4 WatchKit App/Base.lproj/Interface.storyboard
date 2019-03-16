@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Genesis to Revelation -->
+        <scene sceneID="Cwt-wp-5la">
+            <objects>
+                <controller title="Genesis to Revelation " id="PmP-2L-iw3" customClass="MinuteController" customModule="minuteBible4_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="TEm-LL-uCz">
+                            <items>
+                                <label alignment="center" id="ofg-RQ-pyY"/>
+                            </items>
+                        </group>
+                        <label width="1" alignment="center" verticalAlignment="center" textAlignment="center" numberOfLines="0" id="PIF-1u-f6a">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="timerLabel" destination="ofg-RQ-pyY" id="FEM-zp-qSa"/>
+                        <outlet property="wordLabel" destination="PIF-1u-f6a" id="QQT-Rh-46Z"/>
+                        <segue destination="5N8-QJ-Cos" kind="relationship" relationship="nextPage" id="EU8-43-nxd"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="343" y="39"/>
+        </scene>
+        <!--Pick a book-->
+        <scene sceneID="3tS-G1-mug">
+            <objects>
+                <controller title="Pick a book" id="5N8-QJ-Cos" customClass="TestController" customModule="minuteBible4_WatchKit_Extension">
+                    <items>
+                        <picker height="50" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="hCZ-lT-ixY">
+                            <connections>
+                                <action selector="bookPicker:" destination="5N8-QJ-Cos" id="6gA-9p-Md8"/>
+                            </connections>
+                        </picker>
+                        <label alignment="center" text="Label" id="gie-JN-gFY"/>
+                        <button width="1" alignment="left" title="Play" id="hgK-gU-nJI">
+                            <connections>
+                                <action selector="play_button" destination="5N8-QJ-Cos" id="tah-2e-6TB"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="Label" id="iFP-m6-8va"/>
+                        <label alignment="left" text="Label" id="zFN-6V-F0V"/>
+                        <label alignment="left" text="Label" id="CMD-Bx-BX8"/>
+                        <label alignment="center" verticalAlignment="center" text="Label" textAlignment="center" numberOfLines="0" id="Bys-Gn-OM9">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="udY-1j-Ksv">
+                                    <connections>
+                                        <action selector="short_tap_show_hide_reference:" destination="5N8-QJ-Cos" id="PgA-yb-UGI"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <label alignment="center" text="Label" id="pCd-yr-Ivi">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="bookPicker" destination="hCZ-lT-ixY" id="qQW-Ec-Qkg"/>
+                        <outlet property="bookTitle" destination="pCd-yr-Ivi" id="7aV-iV-WQM"/>
+                        <outlet property="currentID" destination="zFN-6V-F0V" id="Bny-e2-5Xq"/>
+                        <outlet property="play_button_display" destination="hgK-gU-nJI" id="5oU-ts-QOT"/>
+                        <outlet property="tableName" destination="CMD-Bx-BX8" id="k1A-F2-6Jf"/>
+                        <outlet property="timerDisplay" destination="gie-JN-gFY" id="tvI-QU-XGe"/>
+                        <outlet property="totalVerses" destination="iFP-m6-8va" id="Uq8-oJ-BTu"/>
+                        <outlet property="wordOfGod" destination="Bys-Gn-OM9" id="nQN-Ux-xHv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="543" y="-292"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="MWs-YG-FZj">
+            <objects>
+                <controller identifier="SelectBook" title="Library" id="3Nh-uk-atI" customClass="BookSelectionController" customModule="minuteBible4_WatchKit_Extension">
+                    <items>
+                        <picker height="47" alignment="left" id="ifl-QE-smg">
+                            <connections>
+                                <action selector="bookPickerSelection:" destination="3Nh-uk-atI" id="51Q-ic-Qa4"/>
+                            </connections>
+                        </picker>
+                        <table alignment="left" id="B35-g9-Equ"/>
+                        <table alignment="left" id="3kY-vV-dSD"/>
+                        <button width="1" alignment="left" title="View" id="G2Z-u5-i9w"/>
+                    </items>
+                    <connections>
+                        <outlet property="bookPicker" destination="ifl-QE-smg" id="XR4-dj-cy1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="603" y="34"/>
+        </scene>
+        <!--Pick a verse-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Browse" title="Pick a verse" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="minuteBible4_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="Jf4-93-qxV" userLabel="Bible Browser">
+                            <items>
+                                <group alignment="center" layout="vertical" id="OCT-dA-2JO" userLabel="Book">
+                                    <items>
+                                        <label alignment="center" text="Book" id="NWf-ai-nT7">
+                                            <fontDescription key="font" type="system" pointSize="8"/>
+                                        </label>
+                                        <picker width="39" height="19" alignment="center" focusStyle="stack" id="fKc-9d-u7U">
+                                            <connections>
+                                                <action selector="bookSelection:" destination="AgC-eL-Hgc" id="mpQ-J9-15E"/>
+                                            </connections>
+                                        </picker>
+                                    </items>
+                                </group>
+                                <group alignment="center" layout="vertical" id="HQp-yy-8A1" userLabel="Chapter">
+                                    <items>
+                                        <label alignment="center" text="Chapter" id="0pj-Tl-wT1">
+                                            <fontDescription key="font" type="system" pointSize="8"/>
+                                        </label>
+                                        <picker width="36" height="19" alignment="center" focusStyle="stack" id="P7x-dj-hfu">
+                                            <connections>
+                                                <action selector="chapterSelection:" destination="AgC-eL-Hgc" id="Ghb-mN-Wgm"/>
+                                            </connections>
+                                        </picker>
+                                    </items>
+                                </group>
+                                <group alignment="center" layout="vertical" id="awC-0o-lWK" userLabel="Verse">
+                                    <items>
+                                        <label alignment="center" text="Verse" id="xdM-Jd-fIO">
+                                            <fontDescription key="font" type="system" pointSize="8"/>
+                                        </label>
+                                        <picker width="37" height="19" alignment="center" focusStyle="stack" id="eGi-pT-4sI">
+                                            <connections>
+                                                <action selector="verseSelection:" destination="AgC-eL-Hgc" id="rtR-2y-i4z"/>
+                                            </connections>
+                                        </picker>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <label width="1" height="31" alignment="left" text="Reference" textAlignment="center" id="JEx-Dn-xvR">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="BQU-GW-Nfh">
+                                    <connections>
+                                        <action selector="tap_show_reference:" destination="AgC-eL-Hgc" id="B8w-JD-kpn"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <label width="1" alignment="center" text="Word" numberOfLines="0" id="CUE-e0-f8s">
+                            <gestureRecognizers>
+                                <swipeGestureRecognizer id="A3U-ac-FZf">
+                                    <connections>
+                                        <action selector="swipeNextVerse:" destination="AgC-eL-Hgc" id="xPE-ak-6pO"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                                <swipeGestureRecognizer direction="2" id="rtn-fR-uh0">
+                                    <connections>
+                                        <action selector="swipePreviousVerse:" destination="AgC-eL-Hgc" id="BOw-9a-1RO"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                                <tapGestureRecognizer id="HAP-XD-o8l">
+                                    <connections>
+                                        <action selector="tapNextVerse:" destination="AgC-eL-Hgc" id="xVs-D6-hL7"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                                <swipeGestureRecognizer direction="8" id="5mA-H0-jqV">
+                                    <connections>
+                                        <action selector="displayPickerView:" destination="AgC-eL-Hgc" id="2xt-Ip-nk8"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                                <swipeGestureRecognizer direction="4" id="BAd-wj-X1v">
+                                    <connections>
+                                        <action selector="hidePickerView:" destination="AgC-eL-Hgc" id="Pap-VX-RQB"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="lDZ-dC-xVc">
+                        <items>
+                            <menuItem title="Play" icon="add" id="VQZ-J4-WYh">
+                                <connections>
+                                    <action selector="fullScreen" destination="AgC-eL-Hgc" id="wvk-Xa-AP8"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="bookPicker" destination="fKc-9d-u7U" id="OnK-54-Wyh"/>
+                        <outlet property="chapterPicker" destination="P7x-dj-hfu" id="VwK-O4-HI6"/>
+                        <outlet property="pickerGroup" destination="Jf4-93-qxV" id="MYE-o1-Irf"/>
+                        <outlet property="referenceDisplay" destination="JEx-Dn-xvR" id="ARF-qu-7ep"/>
+                        <outlet property="verseDisplay" destination="CUE-e0-f8s" id="Bhs-7n-0Da"/>
+                        <outlet property="versePicker" destination="eGi-pT-4sI" id="LfV-AU-QSV"/>
+                        <segue destination="PmP-2L-iw3" kind="relationship" relationship="nextPage" id="YqC-vh-q6c"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut" customClass="NotificationController" customModule="minuteBible4_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="minuteBible4_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6035D2121F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6035D2021F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift */; };
+		F6035D2621F3D6D600669D19 /* Date+DifferenceBetweenTwoDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6035D2021F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift */; };
+		F6035D2821F3E32A00669D19 /* MinuteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6035D2721F3E32A00669D19 /* MinuteController.swift */; };
+		F6035D2D21F55C8900669D19 /* BookSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6035D2C21F55C8900669D19 /* BookSelectionController.swift */; };
+		F6074C4A21288D42003D01B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C4921288D42003D01B8 /* AppDelegate.swift */; };
+		F6074C4C21288D42003D01B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C4B21288D42003D01B8 /* ViewController.swift */; };
+		F6074C4F21288D42003D01B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6074C4D21288D42003D01B8 /* Main.storyboard */; };
+		F6074C5121288D50003D01B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6074C5021288D50003D01B8 /* Assets.xcassets */; };
+		F6074C5421288D50003D01B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6074C5221288D50003D01B8 /* LaunchScreen.storyboard */; };
+		F6074C5921288D50003D01B8 /* minuteBible4 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F6074C5821288D50003D01B8 /* minuteBible4 WatchKit App.app */; };
+		F6074C5F21288D50003D01B8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6074C5D21288D50003D01B8 /* Interface.storyboard */; };
+		F6074C6121288D51003D01B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6074C6021288D51003D01B8 /* Assets.xcassets */; };
+		F6074C6821288D51003D01B8 /* minuteBible4 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6074C6721288D51003D01B8 /* minuteBible4 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6074C6D21288D51003D01B8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C6C21288D51003D01B8 /* InterfaceController.swift */; };
+		F6074C6F21288D51003D01B8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C6E21288D51003D01B8 /* ExtensionDelegate.swift */; };
+		F6074C7121288D51003D01B8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C7021288D51003D01B8 /* NotificationController.swift */; };
+		F6074C7321288D51003D01B8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6074C7221288D51003D01B8 /* ComplicationController.swift */; };
+		F6074C7521288D52003D01B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6074C7421288D52003D01B8 /* Assets.xcassets */; };
+		F6344EE421E8F3A400FB361B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6074C5D21288D50003D01B8 /* Interface.storyboard */; };
+		F643393C21EB9C4900B7BEF7 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F643393B21EB9C4900B7BEF7 /* SettingsController.swift */; };
+		F643393E21EB9D1900B7BEF7 /* Bible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F643393D21EB9D1900B7BEF7 /* Bible.swift */; };
+		F65191DD21EA535900E6C250 /* beer_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = F65191DC21EA535800E6C250 /* beer_glass.png */; };
+		F654D11721F8D57100EE91CA /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654D11521F8D57100EE91CA /* TestController.swift */; };
+		F654D11A21F94D4900EE91CA /* kjvios2.db in Resources */ = {isa = PBXBuildFile; fileRef = F654D11821F94D4800EE91CA /* kjvios2.db */; };
+		F654D11B21F94D4900EE91CA /* kjvios2.db in Resources */ = {isa = PBXBuildFile; fileRef = F654D11821F94D4800EE91CA /* kjvios2.db */; };
+		F654D11C21FA205A00EE91CA /* Bible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F643393D21EB9D1900B7BEF7 /* Bible.swift */; };
+		F6A0FC7321F223B900D0CF4A /* MinuteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0FC7221F223B900D0CF4A /* MinuteController.swift */; };
+		F6E78C0621FA8850006E5552 /* biblefiles in Resources */ = {isa = PBXBuildFile; fileRef = F61B275321E8809400751D64 /* biblefiles */; };
+		F6E78C0721FA8851006E5552 /* biblefiles in Resources */ = {isa = PBXBuildFile; fileRef = F61B275321E8809400751D64 /* biblefiles */; };
+		F6E78C0821FA8853006E5552 /* biblefiles in Resources */ = {isa = PBXBuildFile; fileRef = F61B275321E8809400751D64 /* biblefiles */; };
+		F6E78C0D21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E78C0C21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift */; };
+		F6E78C0E21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E78C0C21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6074C5A21288D50003D01B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6074C3E21288D42003D01B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6074C5721288D50003D01B8;
+			remoteInfo = "minuteBible4 WatchKit App";
+		};
+		F6074C6921288D51003D01B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6074C3E21288D42003D01B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6074C6621288D51003D01B8;
+			remoteInfo = "minuteBible4 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6074C7D21288D52003D01B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F6074C6821288D51003D01B8 /* minuteBible4 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6074C8121288D52003D01B8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F6074C5921288D50003D01B8 /* minuteBible4 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F6035D2021F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DifferenceBetweenTwoDates.swift"; sourceTree = "<group>"; };
+		F6035D2721F3E32A00669D19 /* MinuteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteController.swift; sourceTree = "<group>"; };
+		F6035D2C21F55C8900669D19 /* BookSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSelectionController.swift; sourceTree = "<group>"; };
+		F6074C4621288D42003D01B8 /* minuteBible4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minuteBible4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6074C4921288D42003D01B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6074C4B21288D42003D01B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6074C4E21288D42003D01B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6074C5021288D50003D01B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6074C5321288D50003D01B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6074C5521288D50003D01B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6074C5821288D50003D01B8 /* minuteBible4 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "minuteBible4 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6074C5E21288D50003D01B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F6074C6021288D51003D01B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6074C6221288D51003D01B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6074C6721288D51003D01B8 /* minuteBible4 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "minuteBible4 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6074C6C21288D51003D01B8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F6074C6E21288D51003D01B8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F6074C7021288D51003D01B8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F6074C7221288D51003D01B8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F6074C7421288D52003D01B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6074C7621288D52003D01B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6074C7721288D52003D01B8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F61B275321E8809400751D64 /* biblefiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = biblefiles; sourceTree = "<group>"; };
+		F643393B21EB9C4900B7BEF7 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		F643393D21EB9D1900B7BEF7 /* Bible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible.swift; sourceTree = "<group>"; };
+		F65191DC21EA535800E6C250 /* beer_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beer_glass.png; sourceTree = "<group>"; };
+		F65191E221EAE04A00E6C250 /* biblereferences.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = biblereferences.txt; sourceTree = "<group>"; };
+		F654D10D21F8B6A100EE91CA /* hymn.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hymn.db; sourceTree = "<group>"; };
+		F654D11121F8B6D400EE91CA /* egw_writings_complete.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = egw_writings_complete.db; sourceTree = "<group>"; };
+		F654D11521F8D57100EE91CA /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		F654D11821F94D4800EE91CA /* kjvios2.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = kjvios2.db; sourceTree = "<group>"; };
+		F6A0FC7221F223B900D0CF4A /* MinuteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteController.swift; sourceTree = "<group>"; };
+		F6E78C0C21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabaseHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6074C4321288D42003D01B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6074C6421288D51003D01B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6074C3D21288D42003D01B8 = {
+			isa = PBXGroup;
+			children = (
+				F654D11821F94D4800EE91CA /* kjvios2.db */,
+				F654D11121F8B6D400EE91CA /* egw_writings_complete.db */,
+				F654D10D21F8B6A100EE91CA /* hymn.db */,
+				F65191E221EAE04A00E6C250 /* biblereferences.txt */,
+				F61B275321E8809400751D64 /* biblefiles */,
+				F6074C4821288D42003D01B8 /* minuteBible4 */,
+				F6074C5C21288D50003D01B8 /* minuteBible4 WatchKit App */,
+				F6074C6B21288D51003D01B8 /* minuteBible4 WatchKit Extension */,
+				F6074C4721288D42003D01B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6074C4721288D42003D01B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6074C4621288D42003D01B8 /* minuteBible4.app */,
+				F6074C5821288D50003D01B8 /* minuteBible4 WatchKit App.app */,
+				F6074C6721288D51003D01B8 /* minuteBible4 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6074C4821288D42003D01B8 /* minuteBible4 */ = {
+			isa = PBXGroup;
+			children = (
+				F6074C4921288D42003D01B8 /* AppDelegate.swift */,
+				F6074C4B21288D42003D01B8 /* ViewController.swift */,
+				F6074C4D21288D42003D01B8 /* Main.storyboard */,
+				F6074C5021288D50003D01B8 /* Assets.xcassets */,
+				F6074C5221288D50003D01B8 /* LaunchScreen.storyboard */,
+				F6074C5521288D50003D01B8 /* Info.plist */,
+				F6A0FC7221F223B900D0CF4A /* MinuteController.swift */,
+				F6035D2021F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift */,
+			);
+			path = minuteBible4;
+			sourceTree = "<group>";
+		};
+		F6074C5C21288D50003D01B8 /* minuteBible4 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F6074C5D21288D50003D01B8 /* Interface.storyboard */,
+				F6074C6021288D51003D01B8 /* Assets.xcassets */,
+				F6074C6221288D51003D01B8 /* Info.plist */,
+			);
+			path = "minuteBible4 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F6074C6B21288D51003D01B8 /* minuteBible4 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F65191DC21EA535800E6C250 /* beer_glass.png */,
+				F6074C6C21288D51003D01B8 /* InterfaceController.swift */,
+				F6074C6E21288D51003D01B8 /* ExtensionDelegate.swift */,
+				F6074C7021288D51003D01B8 /* NotificationController.swift */,
+				F6074C7221288D51003D01B8 /* ComplicationController.swift */,
+				F6074C7421288D52003D01B8 /* Assets.xcassets */,
+				F6074C7621288D52003D01B8 /* Info.plist */,
+				F6074C7721288D52003D01B8 /* PushNotificationPayload.apns */,
+				F643393B21EB9C4900B7BEF7 /* SettingsController.swift */,
+				F643393D21EB9D1900B7BEF7 /* Bible.swift */,
+				F6035D2721F3E32A00669D19 /* MinuteController.swift */,
+				F6035D2C21F55C8900669D19 /* BookSelectionController.swift */,
+				F654D11521F8D57100EE91CA /* TestController.swift */,
+				F6E78C0C21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift */,
+			);
+			path = "minuteBible4 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6074C4521288D42003D01B8 /* minuteBible4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6074C8221288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4" */;
+			buildPhases = (
+				F6074C4221288D42003D01B8 /* Sources */,
+				F6074C4321288D42003D01B8 /* Frameworks */,
+				F6074C4421288D42003D01B8 /* Resources */,
+				F6074C8121288D52003D01B8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6074C5B21288D50003D01B8 /* PBXTargetDependency */,
+			);
+			name = minuteBible4;
+			productName = minuteBible4;
+			productReference = F6074C4621288D42003D01B8 /* minuteBible4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6074C5721288D50003D01B8 /* minuteBible4 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6074C7E21288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4 WatchKit App" */;
+			buildPhases = (
+				F6074C5621288D50003D01B8 /* Resources */,
+				F6074C7D21288D52003D01B8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6074C6A21288D51003D01B8 /* PBXTargetDependency */,
+			);
+			name = "minuteBible4 WatchKit App";
+			productName = "minuteBible4 WatchKit App";
+			productReference = F6074C5821288D50003D01B8 /* minuteBible4 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F6074C6621288D51003D01B8 /* minuteBible4 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6074C7A21288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4 WatchKit Extension" */;
+			buildPhases = (
+				F6074C6321288D51003D01B8 /* Sources */,
+				F6074C6421288D51003D01B8 /* Frameworks */,
+				F6074C6521288D51003D01B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "minuteBible4 WatchKit Extension";
+			productName = "minuteBible4 WatchKit Extension";
+			productReference = F6074C6721288D51003D01B8 /* minuteBible4 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6074C3E21288D42003D01B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Giovanni Saberon";
+				TargetAttributes = {
+					F6074C4521288D42003D01B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					F6074C5721288D50003D01B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					F6074C6621288D51003D01B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = F6074C4121288D42003D01B8 /* Build configuration list for PBXProject "minuteBible4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6074C3D21288D42003D01B8;
+			productRefGroup = F6074C4721288D42003D01B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6074C4521288D42003D01B8 /* minuteBible4 */,
+				F6074C5721288D50003D01B8 /* minuteBible4 WatchKit App */,
+				F6074C6621288D51003D01B8 /* minuteBible4 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6074C4421288D42003D01B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6074C5421288D50003D01B8 /* LaunchScreen.storyboard in Resources */,
+				F6074C5121288D50003D01B8 /* Assets.xcassets in Resources */,
+				F6074C4F21288D42003D01B8 /* Main.storyboard in Resources */,
+				F6E78C0821FA8853006E5552 /* biblefiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6074C5621288D50003D01B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6074C6121288D51003D01B8 /* Assets.xcassets in Resources */,
+				F6074C5F21288D50003D01B8 /* Interface.storyboard in Resources */,
+				F654D11A21F94D4900EE91CA /* kjvios2.db in Resources */,
+				F6E78C0721FA8851006E5552 /* biblefiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6074C6521288D51003D01B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65191DD21EA535900E6C250 /* beer_glass.png in Resources */,
+				F6074C7521288D52003D01B8 /* Assets.xcassets in Resources */,
+				F654D11B21F94D4900EE91CA /* kjvios2.db in Resources */,
+				F6344EE421E8F3A400FB361B /* Interface.storyboard in Resources */,
+				F6E78C0621FA8850006E5552 /* biblefiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6074C4221288D42003D01B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6035D2121F36B3600669D19 /* Date+DifferenceBetweenTwoDates.swift in Sources */,
+				F6074C4C21288D42003D01B8 /* ViewController.swift in Sources */,
+				F6A0FC7321F223B900D0CF4A /* MinuteController.swift in Sources */,
+				F6074C4A21288D42003D01B8 /* AppDelegate.swift in Sources */,
+				F6E78C0D21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift in Sources */,
+				F654D11C21FA205A00EE91CA /* Bible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6074C6321288D51003D01B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6074C7121288D51003D01B8 /* NotificationController.swift in Sources */,
+				F6E78C0E21FAC6F5006E5552 /* SQLiteDatabaseHelper.swift in Sources */,
+				F643393C21EB9C4900B7BEF7 /* SettingsController.swift in Sources */,
+				F643393E21EB9D1900B7BEF7 /* Bible.swift in Sources */,
+				F6035D2D21F55C8900669D19 /* BookSelectionController.swift in Sources */,
+				F6074C7321288D51003D01B8 /* ComplicationController.swift in Sources */,
+				F654D11721F8D57100EE91CA /* TestController.swift in Sources */,
+				F6074C6F21288D51003D01B8 /* ExtensionDelegate.swift in Sources */,
+				F6074C6D21288D51003D01B8 /* InterfaceController.swift in Sources */,
+				F6035D2621F3D6D600669D19 /* Date+DifferenceBetweenTwoDates.swift in Sources */,
+				F6035D2821F3E32A00669D19 /* MinuteController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6074C5B21288D50003D01B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6074C5721288D50003D01B8 /* minuteBible4 WatchKit App */;
+			targetProxy = F6074C5A21288D50003D01B8 /* PBXContainerItemProxy */;
+		};
+		F6074C6A21288D51003D01B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6074C6621288D51003D01B8 /* minuteBible4 WatchKit Extension */;
+			targetProxy = F6074C6921288D51003D01B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6074C4D21288D42003D01B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6074C4E21288D42003D01B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6074C5221288D50003D01B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6074C5321288D50003D01B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6074C5D21288D50003D01B8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6074C5E21288D50003D01B8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6074C7821288D52003D01B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6074C7921288D52003D01B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6074C7B21288D52003D01B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				INFOPLIST_FILE = "minuteBible4 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		F6074C7C21288D52003D01B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				INFOPLIST_FILE = "minuteBible4 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		F6074C7F21288D52003D01B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				IBSC_MODULE = minuteBible4_WatchKit_Extension;
+				INFOPLIST_FILE = "minuteBible4 WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "minuteBible4/minuteBible4 WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		F6074C8021288D52003D01B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				IBSC_MODULE = minuteBible4_WatchKit_Extension;
+				INFOPLIST_FILE = "minuteBible4 WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "minuteBible4/minuteBible4 WatchKit App-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		F6074C8321288D52003D01B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				INFOPLIST_FILE = minuteBible4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6074C8421288D52003D01B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XK2R382GY;
+				INFOPLIST_FILE = minuteBible4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = giovanni.minuteBible4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6074C4121288D42003D01B8 /* Build configuration list for PBXProject "minuteBible4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6074C7821288D52003D01B8 /* Debug */,
+				F6074C7921288D52003D01B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6074C7A21288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6074C7B21288D52003D01B8 /* Debug */,
+				F6074C7C21288D52003D01B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6074C7E21288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6074C7F21288D52003D01B8 /* Debug */,
+				F6074C8021288D52003D01B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6074C8221288D52003D01B8 /* Build configuration list for PBXNativeTarget "minuteBible4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6074C8321288D52003D01B8 /* Debug */,
+				F6074C8421288D52003D01B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6074C3E21288D42003D01B8 /* Project object */;
+}
